@@ -1,0 +1,7 @@
+version: "3.4"
+
+service:
+  mongo:
+    image: bitnami/mongodb:latest
+   volumes:
+    - $PWD/docker/mongodb-persistence:/bitnami/mongodb
